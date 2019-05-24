@@ -1,0 +1,35 @@
+*{
+    /* background-color:rgb(105, 103, 103); */
+    padding:0px;
+    margin:0px;
+}
+.title{
+   height:23px;
+    background-color: rgb(127, 132, 136);
+    padding:2px;
+} 
+.front{
+    margin:auto;
+    max-width:900px;
+}
+.header{
+height:50px;
+background-color:rgb(133, 130, 130);
+}
+.header1{
+    margin:auto;
+    max-width:900px;
+}
+.advertisement{
+    width:100%; 
+    height:200px;
+    /* background-image:url("./img1.jpg"); */
+}
+.pixel{
+    margin:auto;
+    max-width:900px;
+}
+ ul li{
+     display: inline-block;
+     list-style: none;
+ }
