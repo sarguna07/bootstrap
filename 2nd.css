@@ -1,5 +1,4 @@
 *{
-    /* background-color:rgb(105, 103, 103); */
     padding:0px;
     margin:0px;
 }
@@ -36,7 +35,6 @@ background-color:rgb(133, 130, 130);
     margin-top: 8px;
     font-size: 17px;
     border: none;
-    /* border-bottom:5px solid black; */
   }
   
   .header .search-container button {
@@ -64,6 +62,7 @@ background-color:rgb(133, 130, 130);
       margin:auto;
       text-align:center;
   }
+ 
  .text{
     margin:auto;
     max-width:900px;
@@ -83,5 +82,13 @@ background-color:rgb(133, 130, 130);
 }
 .footer{
     max-width:900px;
-    margin:auto;
+    margin:auto; 
+}
+h4.after:after {
+    content: "";
+    width: 50px;
+    border-bottom: 1px solid red;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
 }
